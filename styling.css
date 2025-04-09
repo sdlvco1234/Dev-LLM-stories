@@ -1,0 +1,21 @@
+
+body {
+    background-color: rgb(250, 227, 176);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+.button {
+    background-color: #D8BFD8;
+    color : #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px
+}
