@@ -1,0 +1,14 @@
+section {
+    display: flex;
+  }
+  
+.containers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2 px;
+
+}
+    

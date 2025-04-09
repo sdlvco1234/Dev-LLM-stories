@@ -1,0 +1,11 @@
+
+  
+
+.positionned {
+    position: relative;
+    background: yellow;
+    top:50px; 
+    left : 50px;
+    z-index: 1;
+    
+}
