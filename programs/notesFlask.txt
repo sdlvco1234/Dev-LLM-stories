@@ -1,0 +1,2 @@
+WSGI (Web Server Gateway Interface) is a specification that Python web applications follow in order to communicate with web servers. 
+-> The first argument is the name of the application’s module or package. __name__ is a convenient shortcut for this that is appropriate for most cases.

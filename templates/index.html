@@ -4,7 +4,7 @@
 
 <h1 style="color:#060461; text-align: center">Przygody Reksia &reg;</h1>
 <h2 style="color:#a718b4e0; text-align: center" title="Traduction en francais">Les aventures de Reksio</h2>
-<link rel="stylesheet" href="styles.css"> 
+<link rel="stylesheet" href="{{url_for('static', filename='css_files/index.css')}}"> 
 </head>
 
 <body>
@@ -13,10 +13,10 @@
     Dans chaque épisode, le chien vit des aventures liées à ce qu'il veut devenir ou à l'animal (principalement des oiseaux), à la saison ou à la chose à laquelle il est confronté.
     </p>
 
-<img src="assets/Reksio.png" alt="Reksio" width="480" height="380">
-<img src="assets/Reksio2.webp" alt="Reksio2" width="480" height="380">
+<img src="{{url_for('static', filename='pics/Reksio.png')}}" alt="Reksio" width="480" height="380">
+<img src="{{url_for('static', filename='pics/Reksio2.webp')}}" alt="Reksio2" width="480" height="380">
 
-<form action="Page2.html">
+<form action="{{url_for('Page2')}}">
     <input type="submit" value="Regarder Reksio" />
 </form>
 
@@ -24,10 +24,7 @@
     W Szczebrzeszynie chrząszcz brzmi w trzcinie. &#128512;
     </b></p>
 
-    <a href="Page2.html"> Page 2 </a>
-    <a href="page3.html"> Page 3 </a>
-    <a href="sandbox.html"> Sandbox </a>
-
+    <a href="{{url_for('gallery_flexbox')}}"> Gallery </a>
 
 </body>
 </html>
